@@ -1,0 +1,190 @@
+/* Tharindu-D Shopping cart .CSS */
+
+html {
+    background: #fff url(bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	top : 0px ;
+	bottom : 0px ;
+}
+
+body {
+	margin : 0px ;
+	
+}
+.nav {
+	position: fixed;
+	top : 0 ;
+	left : 0 ;
+	height : 25px ;
+	z-index: 999999 ;
+	width:100%;
+	background-color:#fff;
+}
+
+
+/* Semi-transparent Layer by Tharindu-D*/
+#bg1,#bg{
+	background: rgba(255,255,255,0.7) ;
+	/*z-index : 10 ;*/
+	position : absolute ;
+	top : 25px ;
+	width : 86% ;
+	margin-left :7% ;
+	margin-right :7% ;
+	text-shadow : 0px 2px 2px rgba(0,0,0,0.7) ;
+	padding-bottom : 2% ;
+	font-family:"Comic Sans MS", cursive;
+   -webkit-box-shadow: 0px 4px 8px rgba(0,0,0,0.5); 
+   -moz-box-shadow: 0px 4px 8px rgba(0,0,0,0.5);
+   box-shadow: 0px 4px 8px rgba(0,0,0,0.5);
+   text-shadow: 0px 4px 8px rgba(0,0,0,0.5);
+}
+#bg1{
+	
+	-webkit-border-radius: 0 0 50px 50px;
+	-moz-border-radius: 0 0 50px 50px;
+	border-radius: 0 0 50px 50px;
+   
+}
+#bg{
+	
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+   
+}
+
+/* Logo by Tharindu-D*/
+#flashContent { 
+	width : 100% ;
+	padding : 30px ;
+	padding-left : 50px ;
+	position : absolute ;
+	z-index : 9999 ;
+
+}
+
+/* Banner Image by Tharindu-D*/
+#banner {
+padding-top : 0 ;
+padding-bottom : 2% ;
+padding-left : 2% ;
+padding-right : 2% ;
+}
+
+#banner  img{
+width : 100% ;
+}
+
+/* Cart Block by Tharindu-D*/
+#cart{
+    width : 100% ;
+	text-align : center ;
+}
+.food {
+	float:left;
+	padding-left : 5%;
+	padding-bottom : 5%;
+}
+
+img {
+   -webkit-box-shadow: 0px 4px 8px rgba(0,0,0,0.5); 
+   -moz-box-shadow: 0px 4px 8px rgba(0,0,0,0.5);
+   box-shadow: 0px 4px 8px rgba(0,0,0,0.5);
+}
+
+/*cart add list by Tharindu-D*/
+
+#add_cart {
+	background : rgba(254,180,1,0.5) ;
+	border : 1px solid rgb(254,0,0);
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding:5px;
+}
+
+/* Button Style by Tharindu-D*/
+#btn input{ 
+    width : 200px !important;
+	background : rgba(255,255,0,0.5);
+    border : 1px solid rgb(255,0,0);
+	color: rgb(0,0,0);
+    cursor : pointer;
+    cursor : hand;
+}
+#btn input:hover {
+	-moz-box-shadow: 0 0 15px rgba(255,0,0,1.0);
+	-webkit-box-shadow: 0 0 15px rgba(255,0,0,1.0);
+	box-shadow: 0 0 15px rgba(255,0,0,1.0);
+}
+
+#btn_back input{ 
+    width : 200px !important;
+	background : rgba(255,255,255,0);
+    border : 0px ;
+	color: rgb(255,0,0);
+    cursor : pointer;
+    cursor : hand;
+	font-size : 15px ;
+}
+#btn_back input:hover {
+	text-shadow : 0px 2px 2px rgba(0,0,0,0.7) ;
+}
+
+/*add cart button*/
+#c_btn input{ 
+	float : right ;
+	background : rgba(255,255,0,0.5);
+    border : 1px solid rgb(255,0,0);
+	color: rgb(0,0,0);
+    cursor : pointer;
+    cursor : hand;
+}
+#c_btn input:hover {
+	-moz-box-shadow: 0 0 15px rgba(255,0,0,1.0);
+	-webkit-box-shadow: 0 0 15px rgba(255,0,0,1.0);
+	box-shadow: 0 0 15px rgba(255,0,0,1.0);
+}
+
+#a_btn  a{
+		background-color : #0f0;
+        border : 1px solid rgb(0,0,0);
+        display: block;
+        text-decoration: none;
+        color: #fff;
+		padding : 5px;
+		
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+#a_btn  a:hover{
+        border : 2px solid rgb(255,0,0);
+		background-color : #f00;
+}
+#b_btn  a{
+		width : 60%;
+		background-color : rgb(254,180,1);
+        border : 1px solid #f00;
+        display: block;
+        text-decoration: none;
+        color: #fff;
+		padding : 2px;
+		padding-left : 5px ;
+		
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+#b_btn  a:hover{
+        border : 2px solid rgb(255,0,0);
+		background-color : #f00;
+}
+
+#content {
+	float : left ;
+}

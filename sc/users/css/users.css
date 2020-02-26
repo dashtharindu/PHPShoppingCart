@@ -1,0 +1,58 @@
+/* Created by Tharindu-D */
+
+a {
+	color: rgb(255,0,0);
+	text-decoration : none ;
+}
+
+a:hover {
+    cursor : hand;
+	text-decoration : underline ;
+}
+
+#btni input { 
+	color : #F00 ;
+    font-family : inherit;
+	font-size : 1em;
+    padding : 5px 0px 5px 0px;
+	background : rgba(255,255,255,0.2);
+}
+
+#banner1{
+	
+	width:360px !important;
+	padding: 20px ;
+	background : rgba(255,255,0,0.5);
+	-moz-box-shadow: 0 0 15px rgba(255,0,0,1.0);
+	-webkit-box-shadow: 0 0 15px rgba(255,0,0,1.0);
+	box-shadow: 0 0 15px rgba(255,0,0,1.0);
+    border : 1px solid rgb(255,0,0);
+	color: rgb(255,0,0);
+}
+
+#btnl input{ 
+    width : 100%;
+	background : rgba(255,255,0,0.5);
+    border : 1px solid rgb(255,0,0);
+	color: rgb(255,0,0);
+	font-family : inherit;
+	font-size : 1em;
+    padding : 5px 0px 5px 0px;
+    cursor : pointer;
+    cursor : hand;
+}
+
+#btnl input:hover {
+	-moz-box-shadow: 0 0 15px rgba(255,0,0,1.0);
+	-webkit-box-shadow: 0 0 15px rgba(255,0,0,1.0);
+	box-shadow: 0 0 15px rgba(255,0,0,1.0);
+}
+
+.error { 
+	display: none;
+	font-size:12px;
+	font-size:0.8em;
+	box-shadow: none;
+	color:#f00 ;
+}
+
